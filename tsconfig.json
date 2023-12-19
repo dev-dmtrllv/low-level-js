@@ -1,0 +1,77 @@
+{
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "./dist/resources/app",
+		"baseUrl": "./src",
+		"paths": {
+			"@app/*": [
+				"./app/*"
+			],
+			"@server/*": [
+				"./server/*"
+			],
+			"@shared": [
+				"./shared/index.ts"
+			],
+			"@shared/*": [
+				"./shared/*"
+			],
+		},
+		"strictPropertyInitialization": true,
+		"allowArbitraryExtensions": false,
+		"allowImportingTsExtensions": false,
+		"allowJs": false,
+		"allowSyntheticDefaultImports": true,
+		"allowUmdGlobalAccess": false,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels":  false,
+		"alwaysStrict": true,
+		"assumeChangesOnlyAffectDirectDependencies": false,
+		"checkJs": false,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ES2015",
+			"ES2016",
+			"ES2017",
+			"ES2018",
+			"ES2019",
+			"ES2020",
+			"ES2021",
+			"ES2022",
+			"ES2023",
+			"ESNext",
+			"WebWorker"
+		],
+		"exactOptionalPropertyTypes": true,
+		"module": "ESNext",
+		"target": "ESNext",
+		"strictNullChecks": true,
+		"moduleDetection": "auto",
+		"moduleResolution": "Node",
+		"noImplicitAny": true,
+		"noImplicitOverride": true,
+		"noFallthroughCasesInSwitch": false,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"emitDecoratorMetadata": false,
+		"noUnusedParameters": true,
+		"removeComments": true,
+		"resolveJsonModule": true,
+		"jsx": "react-jsx",
+		"strict": true,
+		"useDefineForClassFields": false,
+		"useUnknownInCatchVariables": true,
+		"sourceMap": true,
+	},
+	"include": [
+		"./src/**/*"
+	],
+	"exclude": [
+		"./node_modules/**/*",
+		"./config/**/*"
+	]
+}

@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	color: white;
+	overflow-x: hidden;
+	font-family: ui-serif, sans-serif, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
